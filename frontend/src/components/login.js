@@ -89,7 +89,7 @@ function Login() {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:4000/vendor/login', { 
+            const response = await fetch('https://multiplier.onrender.com/vendor/login', { 
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
